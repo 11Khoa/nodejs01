@@ -11,9 +11,11 @@
        %>
     <h2><%= elem.Ten%></h2>
           
-    <%# JSON.stringify(elem.danhsach).forEach(function(p){%>
-        <p><%= elem.danhsach%></p>
-   <%# }) %>
+    <% elem.danhsach.forEach(function(sanpham){%>
+        <li><%= sanpham.Ten%></li>
+
+        <%
+    });%>
 
    <%
     });
