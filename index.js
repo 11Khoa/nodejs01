@@ -87,4 +87,5 @@ app.get("/sanpham/:idloai/:tenSP",function(req,res){
                 });
         }
     })
+    //nội dung thêm vào để test git thôi chứ không có gì
 })
