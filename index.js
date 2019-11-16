@@ -88,5 +88,3 @@ app.get("/sanpham/:idloai/:tenSP",function(req,res){
         }
     })
 })
-
-//abc 123456789
